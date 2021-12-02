@@ -4,6 +4,8 @@
     {
         public int Id { get; set; }
 
+        public string Cliente { get; set; }
+
         public int Voto { get; set; }
 
         public string Nota { get; set; }
