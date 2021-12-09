@@ -8,7 +8,7 @@
 
         public string Descrizione { get; set; }
 
-        public double Aliquota { get; set; }
+        public int Aliquota { get; set; }
 
         public string Marca { get; set; }
 
