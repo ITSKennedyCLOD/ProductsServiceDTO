@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Microservices.Ecommerce.DTO.Events
 {
-    class UpdateProductEvent
+    public class UpdateProductEvent
     {
         public int Id { get; set; }
 
