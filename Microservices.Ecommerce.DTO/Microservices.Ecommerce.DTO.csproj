@@ -5,4 +5,8 @@
 	  <Version>2.2.0</Version>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
 </Project>
