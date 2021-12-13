@@ -1,7 +1,10 @@
-﻿namespace Microservices.Ecommerce.DTO
+﻿using System.Text.Json.Serialization;
+
+namespace Microservices.Ecommerce.DTO
 {
     public class Recensione
     {
+        [JsonIgnore]
         public int Id { get; set; }
 
         public string Cliente { get; set; }
