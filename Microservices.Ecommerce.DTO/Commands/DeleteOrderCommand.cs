@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Microservices.Ecommerce.DTO.Commands
 {
-    public class DeleteProductCommands
+    public class DeleteOrderCommand
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
     }
 }

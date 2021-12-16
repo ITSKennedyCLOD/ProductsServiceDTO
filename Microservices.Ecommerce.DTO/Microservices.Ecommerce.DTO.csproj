@@ -2,11 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-	  <Version>3.0.1</Version>
+	  <Version>4.0.0</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Commands\" />
-  </ItemGroup>
 
 </Project>
